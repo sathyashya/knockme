@@ -7,7 +7,7 @@ import 'noti_services.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  WidgetsFlutterBinding.ensureInitialized();
+
   NotificationService().initNotification();
   tz.initializeTimeZones();
   runApp(const MyApp());
